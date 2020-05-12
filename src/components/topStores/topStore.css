@@ -1,0 +1,14 @@
+#topStoreComp img{
+    max-width: 100%;
+    margin: 8%;
+    max-height: 100%;
+}
+#topStoreComp{
+    background: #fff;
+    height: 97px;
+}
+#storesInDeals{
+    padding: 3% 4%;
+    background: #e4e4e4;
+}
+

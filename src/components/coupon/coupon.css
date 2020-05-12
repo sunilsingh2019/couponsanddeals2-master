@@ -1,0 +1,227 @@
+ /* html{
+   font-size: 10px;
+ } */
+ #newCoupon{
+   max-width: 208px;
+   height: 251px;
+   background: #f4f4f4;
+   margin: 6% auto;
+   overflow: hidden;
+ }
+ #newCoupon #logoDiv{
+   border-top: 7px solid #fcfcfc;
+   overflow: hidden;
+   position: relative;
+   height: 40px;
+   background: #fff;
+ }
+ #newCoupon img{
+   max-width: 70%;
+   max-height: 70%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+ }
+ #newCoupon #offerOff{
+   width: fit-content;
+   margin: auto;
+   text-align: center;
+   margin-top: 27px;
+   margin-bottom: 30px;
+   font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: .86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6f738e;
+  max-width: 90%;
+  height: 62.5px;
+ }
+ #newCoupon #offerOff h3{
+   font-family: Roboto;
+   font-size: 18px;
+   font-weight: normal;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 30px;
+   letter-spacing: normal;
+   text-align: center;
+   color: #634099;
+ }
+ #newCoupon #offerOff h3 span{
+   font-size: 16px;
+   color: #0a0f2e;
+   line-height: 30px;
+   vertical-align: middle;
+ }
+ #newCoupon #offerDes{
+   font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 17px;
+    height: 26px;
+    overflow: hidden;
+ }
+ #newCoupon #seeOthers{
+   height: 48px;
+   line-height: 48px;
+   border-top: 1px solid #fff;
+   font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #676767;
+ }
+
+ /* ---------for coupon page------------------- */
+.couponFeed4 #newCoupon{
+  max-width: 214px;
+    height: 280px;
+    background: #f4f4f4;
+    margin: 6% auto;
+    overflow: hidden;
+}
+.couponFeed4 #newCoupon #offerOff{
+  margin-top: 36px;
+    margin-bottom: 36px;
+}
+#couponsPage #featuredCoupons{
+  margin-top: 20px;
+}
+#couponsPage #trendingCoupons{
+  width: 868px;
+    margin: auto;
+}
+#couponsPage #flowerBg{
+  background: 
+    linear-gradient(
+      rgba(99, 64, 153, 0.45), 
+      rgba(99, 64, 153, 0.45))
+    ,url('../../assets/images/flower.png')
+}
+#couponsPage #todaysTrendingText, #dealsPage #todaysTrendingText{
+  text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-family: Montserrat;
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+#couponsPage #flowerBg{
+  margin-top: 40px;
+    height: 414px;
+    background-size: cover;
+}
+#couponsPage .dNJMac,#couponsPage .eOwAmO {
+  position: absolute;
+  font-size: 66px;
+  color: #fff;
+  opacity: .5;
+  top: 43%;
+  background: none;
+  cursor: pointer;
+  border: 0;
+  padding-bottom: 0;
+  margin-left: 0;
+  transform: translate(-50%,-50%);
+}
+#couponsPage .eOwAmO{
+  padding-left: 50px;
+}
+#couponsPage #couponsOfTheDay{
+  margin-top: 60px;
+}
+#couponsPage{
+  background: #fcfcfc;
+  padding-bottom: 36px;
+}
+
+/* long coupon */
+#longCoupon{
+  width: 100%;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    font-family: Montserrat;
+    padding: 5% 3% 3% 3%;
+    margin-top: 22px;
+}
+#longCoupon h1{
+  font-size: 1.5rem;
+    font-weight: 550;
+    color: #000;
+}
+#longCoupon h1 span{
+  color: #634099;
+    font-size: 2rem;
+    font-weight: 580;
+}
+#longCoupon h2{
+  font-size: .9rem;
+    font-family: Roboto;
+    font-weight: 200;
+    color: #bebebe;
+    opacity: .98;
+}
+#longCoupon h3{
+  font-size: 1rem;
+  color: #333;
+  opacity: .9;
+  margin-top: 14px;
+}
+#longCoupon h3 svg{
+  margin-right: 8px;
+    opacity: .98;
+}
+#longCoupon h6{
+  font-size: .9rem;
+  color: #6f738e;
+  float: right;
+}
+#longCoupon h6 span{
+  font-size: 1rem;
+    font-weight: 600;
+    color: #634099;
+}
+#longCoupon h5 a{
+  color: #fff;
+  line-height: 40px;
+}
+#longCoupon h5{
+  background: #634099;
+  height: 40px;
+  width: 130px;
+  margin-top: 2px;
+  text-align: center;
+  border-radius: 10px;
+  float: right;
+  font-size: 1rem;
+}
+
+@media (max-width:450px){
+  #newCoupon #offerOff h3 {
+    font-size: 18px;
+  }
+  #newCoupon #offerOff {
+    font-size: 11px;
+  }
+}
+
+#userProfilePopup{
+  display: none;
+}
+

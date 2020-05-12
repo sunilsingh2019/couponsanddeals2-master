@@ -1,0 +1,59 @@
+#profileBox{
+    background: #fff;
+    max-width: 275px;
+    margin: auto;
+    height: 215px;
+    overflow: hidden;
+    margin-bottom: 39px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, .33);
+}
+#profileBox #left{
+    background: #634099;
+    width: 50%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+#profileBox #left img{
+    max-width: 60%;
+    max-height: 54%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#profileBox h1{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #b0b2bb;
+    font-family: Roboto;
+}
+#profileBox h2{
+    text-align: center;
+    color: #2f1754;
+    margin-top: 71px;
+}
+#profileBox #right{
+    position: relative;
+    width: 50%;
+    float: right;
+    padding: 9%;
+    height: 100%;
+}
+
+#changePasswordSucess h1 svg{
+    color: #155724;
+}
+#changePasswordSucess h1{
+    text-align: center;
+}
+#changePasswordSucess{
+    padding: 20vh 0;
+}
+#changePasswordSucess .alert-success{
+    text-align: center;
+    margin-top: 21px;
+}

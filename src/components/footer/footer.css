@@ -1,0 +1,79 @@
+#footer #logoDiv{
+  width: 99px;
+  height: 34px;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 800;        
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #634099; 
+  margin-bottom: 19px;
+}
+#footer p{
+    max-width: 339px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #6f738e;
+}
+#footer h6, #footer h6 a{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6f738e;
+    margin-bottom: 21px;
+}
+#footer #footer1 svg{
+    margin-right: 20px;
+}
+#footer1 .marginTop{
+    margin-top: 56px;
+}
+#footer1{
+    margin-top: 78px;
+    margin-left: 4%;
+    margin-bottom: 41px;
+}
+#footer2{
+    background: #2f1754;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    /* text-align: left; */
+    color: #b2b3bc;
+    padding: 7px 0;
+}
+#footer2 .container{
+    margin-left: 7%;
+}
+#footer2 svg{
+    margin-right: 8%;
+}
+#footer2 .cardPic{
+    max-height: 25px;
+    max-width: 45px;
+    margin-right: 9px;
+}
+
+@media(max-width:768px){
+    #footer p, #footer h6, #footer h6 a {
+        font-size: 14px;
+    }   
+}

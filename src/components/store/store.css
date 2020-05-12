@@ -1,0 +1,372 @@
+#bigStore{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-width: 238px;
+    height: 286px;
+    background-color: #037cd5; 
+}
+#homePage #bigStore{
+    max-width: 264px;
+}
+#bigStore #featured{
+    width: fit-content;
+    border-radius: 0 2px 2px 0;
+    background: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 29px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #634099;
+    margin-top: 20px;
+    width: 170px;
+    height: 29px;
+    overflow: hidden;
+}
+#bigStore img{
+    max-width: 177px;
+    max-height: 113px;
+}
+#bigStore #imgDiv{
+    height: 156px;
+    width: fit-content;
+    margin: auto;
+}
+#bigStore #couponsBox{
+    border: 1px solid #f8f8f8;
+    width: fit-content;
+    padding: 2% 8%;
+    height: 39px;
+    margin: auto;
+    background: transparent;
+    font-family: Roboto;
+    font-size: 14.5px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+#noPadding{
+    padding-right: 0 !important;
+    padding-left: 13px;
+}
+
+#greyBG{
+    width: 100%;
+    background: #f4f4f4;
+    min-height: 286px;
+    position: relative;
+}
+
+#smallStore{
+    height: 100px;
+    width: 100%;
+    max-width: 169px;
+    margin-top: 28px;
+    border: solid 1px #f8f8f8;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2.5s; /* Firefox < 16 */
+        -ms-animation: fadein 2.5s; /* Internet Explorer */
+         -o-animation: fadein 2.5s; /* Opera < 12.1 */
+            animation: fadein 2.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#smallStore img{
+    max-height: 70%;
+    max-width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+/* -------------store main component------------ */
+.store{
+    min-height: 180px;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 0 0 2%;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.33);
+    margin-bottom: 20px;
+}
+.store .shopImgDiv{
+    height: 180px;
+    overflow: hidden;
+    width: 162px;
+    margin: auto;
+}
+.store .shopImgDiv img{
+    max-width: 80%;
+    max-height: 80%;
+}
+.store #info h2{
+    font-size: 1.3rem;
+    color: #333;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+.store #info h3{
+    font-size: 1rem;
+    font-weight: 350;
+    color: #908b9d;
+    font-family: Roboto;
+}
+.store #info svg{
+    color: #908b9d;
+    margin-left: 5px;
+}
+.store #info p{
+    font-size: 1rem;
+    font-family: Montserrat;
+    color: #333;
+}
+.store #info{
+    padding: 14% 3% 14% 6%;
+}
+#storesPage a:hover{
+    text-decoration: none !important;
+}
+.store:hover{
+    background: #634099;
+    border: 1px solid #634099;
+}
+.store:hover #info h2, .store:hover #info svg, .store:hover #info h3, .store:hover #info p{
+    color: #fff;
+}
+
+.store #open{
+    background: #75ef71;
+    color: #fff;
+    font-weight: 500;
+    font-family: Montserrat;
+    font-size: 1rem;
+    width: fit-content;
+    padding: 1% 5%;
+    border-radius: 7px;
+    float: right;
+}
+.store #couponQuantity{
+    float: right;
+    font-size: 1rem;
+    color: #634099;
+    font-family: Roboto;
+    margin: 7px 0;
+}
+.store #buttons{
+    float: right;
+}
+.store #buttons .cardButton{
+    color: #908b9d;
+    border: 1px solid #908b9d;
+    width: 63px;
+    height: 39px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 11px;
+    font-family: Roboto;
+    opacity: .8;
+    display: inline-table;
+    margin: 0 3px;
+    font-size: .78rem
+}
+.store:hover #couponQuantity{
+    color: #fff;
+}
+.store #rightSide{
+    padding-top: 29px;
+}
+.store:hover #buttons .cardButton{
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#storesPage #fullWidth{
+    background: #f5f5f5;
+}
+#storesPage{
+    background: #fcfcfc;
+    padding-bottom: 35px;
+}
+#storesPage .featuredStores{
+    margin-top: 30px;
+}
+#storesPage #allStores{
+    margin-top: 45px;
+}
+#storesPage .dNJMac, #storesPage .eOwAmO{
+    top:39%;
+    opacity: .8;
+    margin: 0;
+}
+#storesPage .dNJMac:hover, #storesPage .eOwAmO:hover{
+    opacity: 1;
+}
+
+#storeDetail #simpleHeader{
+    margin-bottom: 0;
+}
+#storeDetail #sh1{
+    margin-top: 39px;
+}
+#userProfile #bigStore{
+    margin-bottom: 32px;
+}
+@media (max-width:1200px){
+    .store #buttons .cardButton {
+        width: 52px;
+    }
+}
+
+@media(max-width:992px){
+    #bigStore #featured {
+        font-size: 14px;
+    }
+    #bigStore img {
+        max-width: 104px;
+        max-height: 108px;
+    }
+    #bigStore #couponsBox {
+        padding: 2% 4%;
+        font-size: 12px;
+    }
+    .store .shopImgDiv img {
+        max-width: 60%;
+    }
+    .store #info h2 {
+        font-size: 1rem;
+    }
+    .store #info h3 {
+        font-size: .7rem;
+    }
+    .store #info p {
+        font-size: .7rem;
+    }
+    .store #open {
+        font-size: 0.7rem;
+    }
+    .store #couponQuantity {
+        font-size: 0.7rem;
+    }
+    .store #buttons .cardButton {
+        font-size: .6rem;
+        height: fit-content;
+        width: 42px;
+        padding: 2px;
+    }
+    .store #someName{
+        position: relative;
+    }
+    .store #info{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+    }
+}
+@media(max-width:767px){
+    .store .shopImgDiv img {
+        max-width: 90%;
+    }
+    .store #info {
+        padding: 3%;
+    }
+    .store #rightSide {
+        padding: 0 2% 29px 5%;
+    }
+    .store #buttons {
+        width: 100%;
+        float: none;
+    }
+    .store #open {
+        float: none;
+        margin-bottom: 10px;
+        margin-left: 4px;
+    }
+    .store #couponQuantity {
+        font-size: .9rem;
+    }
+    .store #someName{
+        position: unset;
+    }
+    .store #info{
+        position: unset;
+        top: unset;
+        left: unset;
+        transform: unset;
+        width: 100%;
+    }
+}
+@media(max-width:766px){
+    #bigStore #featured {
+        font-size: 1rem;
+    }
+    #bigStore img{
+        max-width: 148px;
+        max-height: 127px;
+    }
+    #bigStore #couponsBox{
+        padding: 2% 8%;
+        font-size: 14.5px;
+    }
+    #bigStore{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:766px){
+    #smallStore {
+        margin: auto;
+        margin-top: 28px;
+    }
+    }
+@media (max-width:450px){
+    #storesPage #featuredStores{
+        width: 90%;
+    margin: auto;
+    }
+    .store #couponQuantity {
+        float: none;
+    }
+}

@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+#loginPage, #registerPage, #registerStore, #newAddDeal {
+    background: #fcfcfc;
+    padding-top: 40px;
+    padding-bottom: 82px;
+}
+#viewStore #newAddDeal{
+    padding-top: 0;
+}
+#loginPage #loginDiv, #registerPage #registerDiv, 
+#registerStore #registerStoreDiv, #editProfileDiv,
+#newAddDeal #newAddDealDiv{
+	width: 40%;
+    background: #fff;
+    padding-bottom: 3%;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+}
+#newAddDeal #newAddDealDiv .noBG{
+    background: #fff;
+}
+#registerStore #registerStoreDiv, #editProfileDiv,#newAddDeal #newAddDealDiv{
+    width: 70%;
+}
+#editProfileDiv{
+padding-bottom: 155px;
+}
+#loginPage label, #registerPage label,#registerStore label,
+#editProfileDiv label, #newAddDealDiv label {
+    width: fit-content;
+    font-family: Roboto;
+    color: #000;
+    opacity: .8;
+    font-size: 1rem;
+    margin-top: 25px;
+    font-weight: 600;
+    padding: 0 3%;
+}
+#bannerStatus{
+    font-size: 13px;
+    color: #634099;
+    font-family: Roboto;
+}
+#registerStore label, #newAddDealDiv label {
+    font-weight: normal;
+}
+#loginPage input, #registerPage input, #registerStore input, 
+#registerStore textarea, #registerStore select, #editProfileDiv input,
+#newAddDealDiv input, #newAddDealDiv select, #newAddDealDiv textarea {
+    background: #f5f5f5;
+    border: 0;
+    height: 50px;
+    padding: 0 2% 0 5%;
+    width: 96%;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-weight: 100;
+    margin: 0 3%;
+}
+#newAddDealDiv input, #newAddDealDiv select, #newAddDealDiv textarea{
+    color: #bebebe;
+    font-size: .9rem;
+}
+#newAddDealDiv select option{
+    background: #fff;
+    color: #000;
+}
+#newAddDealDiv #banner, #registerStore #banner{
+    display: none;
+}
+#customInput{
+    margin-left: 2%;
+    border: 2px solid #403f3f;
+    height: 46px;
+    margin-top: 11px;
+    border-radius: 10px;
+    text-align: center;
+    width: 117px;
+    background: whitesmoke;
+    line-height: 44px;
+    color: #403f3f;
+}
+
+#registerStore textarea, #newAddDealDiv textarea {
+    height: 150px;
+    margin: auto;
+}
+
+#loginPage #forgot{
+    float: right;
+    padding-right: 2%;
+    font-size: .7rem;
+    color: #b0b2bb;
+    font-family: Roboto;
+}
+#loginPage #login, #registerPage #signup{
+    width: 94%;
+    margin-left: 4%;
+    margin-top: 25px;
+    background: #634099;
+    border: 0;
+    color: #fff;
+    height: 45px;
+    font-family: Roboto;
+    border-radius: 10px;
+}
+#loginPage p,#registerPage p {
+    font-size: .8rem;
+    text-align: center;
+    color: #b0b2bb;
+    margin-top: 1.5rem;
+}
+#loginPage .kep-login-facebook.metro, #registerPage .kep-login-facebook.metro{
+font-family: Arial;
+    font-weight: normal;
+    text-transform: capitalize;
+    height: 45px;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+}
+#loginPage #google button, #registerPage #google button{
+    width: 100%;
+    border-radius: 10px;
+}
+#loginPage #loginOptions, #registerPage #loginOptions{
+    margin-left: 3%;
+}
+#loginPage #newHere, #registerPage #newHere{
+    width: 40%;
+    margin: auto;
+    background: #fff;
+    margin-top: 20px;
+    height: 55px;
+    line-height: 55px;
+    color: #2f1754bd;
+    font-family: Roboto;
+    text-align: left;
+    padding: 0 3%;
+    border-radius: 13px;
+    font-size: .9rem;
+    font-weight: 500;
+}
+#loginPage #newHere a, #registerPage #newHere a{
+    float: right;
+    color: #634099;
+    font-weight: 600;
+}
+#loginPage #showPassword, #registerPage #showPassword, 
+#registerPage #showPasswordC, #editProfileDiv #showPassword,
+#editProfileDiv #showPasswordNew, #editProfileDiv #showPasswordCon {
+    position: absolute;
+    width: fit-content;
+    margin-top: -38px;
+    margin-left: 85%;
+    cursor: pointer;
+    color: #b0b2bb;
+}
+#editProfileDiv #showPassword, #editProfileDiv #showPasswordNew, #editProfileDiv #showPasswordCon{
+    margin-top: -36px;
+    margin-left: 83%;
+}
+#registerPage form, #newAddDealDiv form{
+    padding: 0 3%;
+}
+
+#registerStore #create, #registerStore #cancel, #editProfileDiv button,
+#newAddDealDiv #create, #newAddDealDiv #cancel{
+    width: 191px;
+    float: right;
+    background: #634099;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    height: 40px;
+    font-family: Roboto;
+    line-height: 40px;
+    text-align: center;
+}
+#editProfileDiv button{
+    margin-top: 47px;
+    float: left;
+    margin-left: 14px;
+    width: 93%;
+}
+#registerStore #create{
+    margin-right: 16px;
+}
+#registerStore #cancel, #newAddDealDiv #cancel{
+    float: left;
+    background: #ee7852;
+    margin-left: 16px;
+}
+#registerStore form, #editProfileDiv form{
+    padding-left: 2%;
+}
+
+.strongErrorMsg{
+    margin: 0 4%
+}
+.invalid-feedback1{
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+.is-invalid{
+    border: 1px solid #dd385d78 !important;
+}
+
+@media(max-width:1201px){
+    #loginPage #loginDiv, #registerPage #registerDiv, #registerStore #registerStoreDiv, 
+    #editProfileDiv, #newAddDeal #newAddDealDiv {
+        width: 50%;
+    }
+    #loginPage #newHere, #registerPage #newHere {
+        width: 50%
+    }
+    #editProfileDiv #showPassword, #editProfileDiv #showPasswordNew, #editProfileDiv #showPasswordCon {
+        margin-top: -36px;
+        margin-left: 77%;
+    }
+}
+
+@media(max-width:992px){
+    #loginPage #loginDiv, #registerPage #registerDiv, #registerStore #registerStoreDiv, 
+    #editProfileDiv, #newAddDeal #newAddDealDiv {
+        width: 67%;
+    }
+    #loginPage #newHere, #registerPage #newHere {
+        width: 67%;
+    }
+}
+
+@media(max-width:766px){
+    #loginPage #google button, #registerPage #google button {
+        margin-top: 20px;
+    }
+    #google button{
+        width: 100%;
+    }
+    #editProfileDiv #showPassword, #editProfileDiv #showPasswordNew, #editProfileDiv #showPasswordCon {
+        margin-left: 84%;
+    }
+}
+@media (max-width:450px){
+    #loginPage #loginDiv, #registerPage #registerDiv, #registerStore #registerStoreDiv,
+     #editProfileDiv, #newAddDeal #newAddDealDiv {
+        width: 87%;
+    }
+    #loginPage #showPassword, #registerPage #showPassword, #registerPage #showPasswordC, 
+    #editProfileDiv #showPassword, #editProfileDiv #showPasswordNew, #editProfileDiv #showPasswordCon {
+        margin-left: 78%;
+    }
+    #loginPage .kep-login-facebook.metro, #registerPage .kep-login-facebook.metro {
+        width: 100%;
+    }
+    #google button{
+        width: 100%;
+    }
+    #loginPage #newHere, #registerPage #newHere {
+        width: 87%
+    }
+    #registerPage form, #newAddDealDiv form {
+        padding: 0 4%;
+    }
+    #editProfileDiv button {
+        width: 85%;
+    }
+    #loginHeader {
+        height: 43px;
+    }
+    #loginHeader h1 {
+        line-height: 43px;
+        font-size: 1.2rem;
+    }
+    #loginPage label, #registerPage label, #registerStore label, #editProfileDiv label, #newAddDealDiv label {
+        font-size: .85rem;
+    }
+}

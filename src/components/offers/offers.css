@@ -1,0 +1,108 @@
+
+#offer{
+    /* height: 377px; */
+    height: 272px;
+    max-width: 240px;
+    box-shadow: 0 0 6.8px 0.2px rgba(138, 138, 138, 0.46);
+    border: solid 1px #e2e2e2;
+    background-color: #f7f7f7;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#offer #imageDiv{
+    /* height: 270px;
+    overflow: hidden; 
+    position: relative; */
+    height: 156px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #ddd4d4;
+
+}
+#offer #imageDiv img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 242px;
+    max-height: 205px;
+
+}
+#offer #logoStore{
+    max-width: 96px;
+    max-height: 18px;
+    margin-top: 7px;
+}
+#offer #logoStoreDiv{
+    width: fit-content;
+    margin: auto;
+}
+#offer #offerTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #0a0f2e;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+#offer #claimRectangle{
+    width: 138px;
+    height: 29px;
+    border-radius: 5px;
+    border: solid 1px #634099;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #634099;
+    text-align: center;
+    margin: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    color: #000 !important;
+    margin-bottom: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+#offerDiv{
+    margin-top: 82px;
+}
+
+@media (max-width:450px){
+    #offerDiv{
+        width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    }
+    .title {
+        font-size: 16px;
+    }
+    #offer #imageDiv {
+        height: 140px;
+    }
+    #offer #offerTitle {
+        font-size: .8rem;
+    }
+    #offer #claimRectangle {
+        width: 107px;
+        height: 24px;
+        font-size: 12px;
+    }
+    #offer {
+        height: 249px;
+    }
+}

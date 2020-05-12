@@ -1,0 +1,114 @@
+#navbarSearch input{
+    height: 42px;
+    width: 289px;
+    border: 1px solid #b0b2bb;
+    padding-left: 13px;
+}
+#navbarSearch label{
+    position: absolute;
+    margin-left: -49px;
+}
+#nav2 #leftIcons #navbarSearch:hover svg {
+    color: #634099 !important;
+}
+
+#searchPage{
+    padding: 39px 0;
+    background: #fcfcfc;
+}
+#searchPage h1{
+    font-family: Montserrat;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* #searchPage #dealItemPage {
+    height: 285px;
+    margin-bottom: 39px;
+} */
+
+#searchPage h2{
+    font-family: Montserrat;
+    font-size: 16px;
+    margin: 20px 0 25px 0;
+    color: #634099;
+    font-weight: 600;
+    text-align: center;
+}
+
+#searchPage #searchBox input{
+    width: 80%;
+    margin: 30px 10%;
+    border: 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0.25rem 0.125rem 0px inset;
+    border-color: rgb(222, 226, 230);
+    color: rgb(73, 80, 87);
+    border-radius: 6px;
+    height: 53px;
+    padding-left: 18px;
+}
+
+#searchPage hr{
+    border-color: rgb(233, 236, 239);
+    background: rgb(233, 236, 239);
+    height: 1px;
+    margin-bottom: 50px;
+}
+
+#searchPage #featuredTitle{
+    padding: 0 20px;
+}
+
+#searchPage .searchFor .searchTitle{
+    margin-bottom: 17px;
+}
+
+#searchPage #bigStore{
+    height: 204px;
+    margin-bottom: 52px;
+}
+#searchPage #bigStore #featured {
+    width: 100%;
+}
+#searchPage #bigStore img {
+    max-width: 113px;
+    max-height: 95px;
+}
+
+#overlaySearch{
+    background: #000;
+    opacity: .6;
+    position: fixed;
+    z-index: -1;
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+    left: 0;
+    display: none;
+}
+
+@media (max-width:768px) {
+    #searchPage h1 {
+        font-size: 20px;
+    }
+    #searchPage h2 {
+        font-size: 13px;
+    }
+    .searchTitle {
+        font-size: .9rem;
+    }
+    #sortBy p, #sortCategory p {
+        font-size: .9rem;
+    }
+}
+#navbarSearch #smallScreenSearch {
+    position: unset;
+}
+
+@media (max-width:450px){
+    #searchPage .col-xs-12{
+        padding-right: 0;
+        margin-right: -15px;
+        width: -webkit-fill-available;
+    }
+}

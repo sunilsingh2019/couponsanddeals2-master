@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html{
+    width: 100vw;
+    overflow-x: hidden !important;
+}
+body{
+    overflow-x: hidden !important;
+}
+.hide{
+    display: none !important;
+}
+#homePage{
+    background: #fcfcfc;
+    padding-top: 35px;
+    overflow-x: hidden !important;
+}
+#todaysTrending a:hover{ 
+    color: #346aa0;
+}
+.iWantWhite{
+    background: #fff !important;
+    width: 99%;
+    height: 95%;
+    margin: 2%;
+    padding: 1%;
+}
+
+.scrollerContainer{
+    width: 95%;
+    margin-left: 16px;
+    padding: .5% 0 0 0;
+}
+.dNJMac,.eOwAmO {
+    position: absolute;
+    height: fit-content;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 34px;
+    top: 25%;
+    border-radius: 50%;
+    border: 1px solid #f4f4f4;
+    padding-bottom: 6px;
+    color: #346aa0;
+    margin-left: 33px;
+}
+#nav .container{
+    max-width: 91% !important;
+}
+#allSmallCat{
+    background: #f4f4f4;
+    padding: 1% 4%;
+}
+.scrollerContainer h4{
+    font-size: 1.2rem !important;
+    text-align: center;
+    margin-bottom: 2%;
+    width: 100%;
+} 
+#dealsOfTheDayDiv{
+    margin-top: 81px;
+}
+#couponsDiv{
+    margin-top: 82px;
+}
+#couponsDiv .nav-tabs .nav-link {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #bebebe;
+    border: 0;
+    background: transparent;
+    padding-top: 0;
+}
+#couponsDiv .nav-tabs .nav-link.active{
+    color: #634099 !important;
+    border-bottom: 1px solid #634099 !important;
+}
+#couponsDiv a:hover{
+    text-decoration: none !important;
+    color: inherit;
+} 
+.storeDivHome{
+    margin-top: 62px;
+}
+#homePage #offerDiv .sc-htpNat{
+    margin-left: -36px;
+}
+#homePage #dealItemPage{
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+#homePage #viewAllDeals{
+    background-color: #634099;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border: 0;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    line-height: 50px;
+}
+#homePage #dealsCollectionDiv{
+    margin-top: 82px;
+}
+#homePage #offerDiv .dNJMac,#homePage #offerDiv .eOwAmO {
+    background: transparent;
+    opacity: .8;
+    top:35%;
+    margin:0;
+    border: 0;
+    background: #fcfcfc;
+}
+#homePage #offerDiv .dNJMac {
+    margin-left: 20px;
+}
+#homePage #offerDiv .eOwAmO {
+    margin-right: 20px;
+}
+#homePage #offerDiv .dNJMac:hover ,#homePage #offerDiv .eOwAmO:hover{
+    opacity: 1;
+    border: 1px solid #fcfcfc;
+}
+#homePage #dealsOfTheDay a{
+    text-decoration: none;
+}
+ a:hover{
+    text-decoration: none;
+}
+#homePage #couponsDiv .dNJMac, #homePage #couponsDiv .eOwAmO{
+    margin: 0;
+    opacity: .7;
+    top:38%;
+}
+#homePage #couponsDiv .dNJMac:hover, #homePage #couponsDiv .eOwAmO:hover{
+    opacity: 1;
+}
+#homePage #couponsDiv .tab-content{
+    margin-left: -8px;
+}
+#homePage nav .pagination{
+    width: fit-content;
+    position: absolute;
+    z-index: 20;
+    right: 0;
+    margin-top: -54px;
+    margin-right: 29px;
+    cursor: pointer;
+}
+#homePage nav .pagination a{
+    padding: 5px;
+    padding-bottom: 6px;
+    color: #634099;
+    font-family: monospace;
+}
+#homePage .container{
+    position: relative;
+}
+
+@media(max-width:450px){
+    #couponsDiv .nav-tabs .nav-link {
+        font-size: 13px;
+        padding: 0 7px 4px;
+    }
+    #homePage #couponsDiv .tab-content {
+        width: 82%;
+    margin: auto;
+    }
+    #dealsOfTheDayDiv {
+        margin-top: 60px;
+    }
+}
+#relatedOffersDiv{
+    margin-top: 81px;
+}
+#relatedOffersBox{
+    background: #f4f4f4;
+    max-width: 240px;
+    overflow: hidden;
+    height: 267px;
+    position: relative;
+    box-shadow: 0 0 6.8px 0.2px rgba(138, 138, 138, 0.46);
+    border: solid 1px #e2e2e2;
+    margin: 0px auto 40px auto;
+}
+#relatedOffersBox:hover{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+    cursor: pointer;
+}
+#relatedOffersBox #topImageDiv{
+    height: 162px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+#relatedOffersBox #topImageDivAfter{
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.5) 100%);
+    position: absolute;
+    opacity: .25;
+    width: 100%;
+    height: 36px;
+    margin-top: -35px;
+}
+#relatedOffersBox #topImageDiv img{
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#relatedOffersBox #logoImgDiv{
+    background: #fff;
+    position: relative;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.25);
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    margin-top: -27px;
+}
+#relatedOffersBox #logoImgDiv img{
+    max-width: 95%;
+    max-height: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#relatedOffersBox h3{
+    font-size: 14px;
+    color: #212121;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 6px;
+}
+#relatedOffersBox h4{
+    font-size: 12px;
+    line-height: 16px;
+    color: #9e9e9e;
+    text-align: center;
+}
+
+#mixedDealsDiv #dealItemPage {
+    height: 275px;
+}
+#mixedDealsDiv #dealItemPage h6 {
+    font-weight: normal;
+    text-decoration: none;
+    font-size: .94rem;
+}
+#mixedDealsDiv #dealItemPage h3 {
+    font-size: .9rem;
+    font-weight: normal;
+}
+#mixedDealsDiv #priceDiv h5 {
+    font-size: .9rem;
+    font-weight: normal;
+}
+#mixedDealsDiv #dealItemPage #appearOnHover {
+    height: 275px;
+}
+
+#categoriesHome{
+    margin-top: 70px;
+}
+  
+@media(max-width:768px){
+    #greyBG {
+        padding-bottom: 26px;
+    }
+    #homePage #bigStore {
+        margin: auto;
+    }
+    #homePage #viewAllDeals {
+        font-size: 13px;
+        width: 117px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width:487px){
+    #couponsDiv .nav-tabs #showAllHome {
+        padding-top: 20px;
+    }
+}

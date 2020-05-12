@@ -1,0 +1,66 @@
+.forgotP{
+    position: relative;
+    min-height: 80vh;
+}
+.forgotP #forgotPasswordPage{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #f4f4f4;
+    padding: 5%;
+    padding-top: 3%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+}
+#forgotPasswordPage p{
+    font-family: Roboto;
+    font-size: 13px;
+    text-align: center;
+    color: gray;
+    font-weight: 600;
+}
+#forgotPasswordPage button{
+    margin: auto;
+    margin-top: 39px;
+    float: none;
+    margin-left: 8px;
+    width: 96%;
+}
+#forgotPasswordPage .invalid-feedback{
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #dc3545;
+    display: block;
+}
+.problem{
+    cursor: pointer;
+    float: right;
+    line-height: 65px;
+    color: #634099;
+    font-family: Roboto;
+    font-weight: 600;
+}
+@media(max-width:1201px){
+    .forgotP #forgotPasswordPage {
+        width: 67%;
+    }
+}
+@media(max-width:1100px){
+    .forgotP #forgotPasswordPage {
+        width: 75%;
+    }
+}
+@media(max-width:769px){
+    .forgotP #forgotPasswordPage {
+        width: 81%;
+    }
+    .forgotP {
+        min-height: 60vh;
+    }
+}
+@media(max-width:530px){
+    .forgotP #forgotPasswordPage {
+        width: 95%;
+    }
+}

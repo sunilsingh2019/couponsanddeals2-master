@@ -1,0 +1,16 @@
+#storesPage #allStores nav{
+    position: absolute;
+    margin-top: -89px;
+    right: 41px;
+}
+#storesPage #allStores nav .pagination{
+    float: right;
+}
+#storesPage #allStores nav .pagination a{
+    padding: 7px;
+    font-family: Montserrat;
+    color: #634099;
+}
+#storesPage .container{
+    position: relative;
+}

@@ -1,0 +1,37 @@
+#categoryDropdown #level2{
+    background: #fff;
+    margin-left: 211px;
+    position: absolute;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.33);
+    margin-top: -33px;
+    display: none;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: 200px;
+    padding: 0;
+}
+
+#categoryDropdown ul li a:hover, #storeDropdown ul li a:hover{
+    color: blue;
+    cursor: pointer;
+}
+#categoryDropdown ul li:hover{
+    background: #f4f4f4;
+}
+
+#categoryDropdown ul li:hover #level2{
+    display: block;
+}
+#categoryDropdown li, #storeDropdown li{
+    list-style: none;
+    line-height: 1.5rem;
+    padding: 2%;
+}
+#categoryDropdown li a, #storeDropdown li a{
+    line-height: 1.5rem !important;
+    font-weight: 200 !important;
+    font-size: 1rem !important;
+}
+#categoryDropdown ul, #storeDropdown ul{
+    padding: 0;
+}

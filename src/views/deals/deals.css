@@ -1,0 +1,80 @@
+#dealsPage #flowerBg{
+    background: 
+      linear-gradient(
+        rgba(99, 64, 153, 0.45), 
+        rgba(99, 64, 153, 0.45))
+      ,url('../../assets/images/flower.png')
+  }
+
+#dealsPage{
+    background: #fcfcfc;
+    padding-bottom: 36px;
+}
+#dealsPage #featuredDeal{
+    margin-top: 20px;
+}
+#dealsPage #flowerBg{
+    margin-top: 40px;
+    height: 524px;
+    background-size: cover;
+}
+#dealsPage #dealsOfTheDay{
+    margin-top: 60px;
+}
+#dealsPage #trendingDeal{
+    width: 868px;
+    margin: auto;
+}
+#dealsPage #trendingDeal #dealItemPage {
+    height: 375px;
+    color: #0a0f2e;
+    max-width: 250px;
+    background: #f4f4f4;
+}
+#dealsPage #trendingDeal .card{
+    box-shadow: none;
+    border: none;
+}
+
+#dealsPage .kFgaDu, #dealsPage .hFlKJf,
+#couponsPage .kFgaDu, #couponsPage .hFlKJf {
+    position: absolute;
+    font-size: 66px;
+    color: #fff;
+    opacity: .5;
+    background: none;
+    cursor: pointer;
+    border: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+}
+#dealsPage .kFgaDu, #couponsPage .kFgaDu{
+    padding-left: 23px;
+}
+#dealsPage .hFlKJf, #couponsPage .hFlKJf {
+    padding-right: 23px;
+}
+#dealsPage .eOwAmO {
+    padding-left: 50px;
+}
+#dealsPage #productImg{
+    transform: translate(-50%,-50%) scale(0.9) !important;
+}
+
+@media(max-width:992px){
+    #dealsPage #trendingDeal, #couponsPage #trendingCoupons{
+        width: 92%;
+    }
+}
+@media (max-width:766px){
+    #dealsPage #trendingDeal, #couponsPage #trendingCoupons {
+        width: 72%;
+    }
+}
+
+/* position: absolute;
+    font-size: 66px;
+    color: #fff;
+    opacity: .5;
+    top: 0;
+    padding-left: 23px; */

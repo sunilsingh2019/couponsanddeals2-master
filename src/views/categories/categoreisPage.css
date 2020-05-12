@@ -1,0 +1,130 @@
+#categoryDetail #storeHeader #right{
+    display: none;
+}
+.loadMore{
+    background: #634099;
+    border: 0;
+    color: #fff;
+    height: 51px;
+    padding: 0 28px;
+    font-family: Roboto;
+    font-size: 16px;
+}
+.loadMoreWrap{
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.subCategoryDetail #searchSide{
+    margin-top: 106px
+}
+ 
+
+
+@media(max-width:1200px){
+    #storeDetail #storeTabContent #imageDiv, #categoryDetail #categoryTabContent #imageDiv{
+        width: 100%;
+    }
+}
+
+@media(max-width:992px){
+    .followButton, .followingButton {
+        font-size: 14px;
+    }
+    #longCoupon h1 {
+        font-size: 1.2rem;
+    }
+    #longCoupon h2 {
+        font-size: .8rem;
+    }
+    #longCoupon h3 {
+        font-size: .8rem;
+    }
+    #longCoupon h6 {
+        font-size: .7rem;
+    }
+    #longCoupon h5 a {
+        font-size: 14px;
+    }
+}
+@media(max-width:769px){
+    #longCoupon h5 {
+        float: none;
+    }
+    #longCoupon h6 {
+        float: none;
+    }
+    #categoryDetail #categoryTabContent #imageDiv{
+        position: relative;
+        margin: 0;
+    }
+    .followButton, .followingButton {
+        margin-top: 20px;
+    }
+    .subCategoryDetail #searchSide {
+        margin-top: 15px;
+    }
+}
+@media (max-width:498px){
+    #categoryDetail .nav-tabs li  {
+        width: fit-content;
+        padding: 1% 5%; 
+        margin: 2%;
+    }
+    #storeDetail .nav-tabs li a, #categoryDetail .nav-tabs li a{
+        font-size: .9rem;
+        line-height: normal;
+    }
+    #storeDetail #storeTabs ul, #categoryDetail #categoryTab ul {
+        margin-left: 0;
+        width: fit-content;
+        display: -webkit-box;
+        padding: 7px 0;
+        margin: auto;
+    }
+    #storeDetail #storeTabs, #categoryDetail #categoryTab {
+        min-height: 50px;
+        padding: 0;
+    }
+    #storeHeader #left h1, #userHeader #left h1 {
+        font-size: 20px;
+        line-height: normal;
+    }
+    #storeHeader #left p {
+        font-size: .8rem;
+    }
+}
+@media (max-width:451px){
+    #longCoupon h6 {
+        float: none;
+        margin: 5px 0 10px 0
+    }
+}
+
+#catPage .lev1 h1 a{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #6b6969;
+    line-height: 2.2rem;
+}
+#catPage .lev1 h1{
+    border-bottom: 1px dotted;
+    width: 95%;
+    border-color: #6b6969;
+}
+#catPage .lev2 li a{
+    color: #737373;
+}
+#catPage{
+    padding: 36px 0;
+}
+
+@media(max-width:450px){
+    #catPage .lev1 h1 a{
+        font-size: 1rem;
+    }
+    #catPage .lev2 li a{
+        font-size: .9rem;
+    }
+}

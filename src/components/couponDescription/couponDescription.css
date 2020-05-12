@@ -1,0 +1,55 @@
+.couponDes h3 {
+    color: #525252;
+    font-size: 1.3rem;
+}
+.couponDes p{
+    color: #515151;
+    margin-bottom: .1rem;
+}
+.couponDes #right{
+    float: right;
+    width: 100%;
+}
+.couponDes #tick{
+    color: green;
+}
+.couponDes .small{
+    font-size: 5px;
+}
+.couponDes .button {
+    background-color: #fff;
+    border: 1px solid #346aa0;
+    color: #346aa0;
+    padding: 4%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+}
+.couponDes a {
+    color: #346aa0;
+}
+
+.couponDes a:hover{
+    color: #346aa0;
+}
+.couponDes a>span {
+    font-size: 11px;
+    margin-left: 20%;
+    color: #aeb7b8;
+    border-bottom: 1px dashed #999;
+    display: inline;
+}
+.couponDes{
+    background: #f4f4f4;
+    padding: 3%;
+    margin-left: 4%;
+    border-bottom:2px solid #fff; 
+}
+.couponDes #bigp{
+    font-size: .8rem;
+}
+.oneblock h4{
+  font-size: 1.4rem;  
+} 

@@ -1,0 +1,62 @@
+#bigFeatured::after{
+    content: ' ';
+    width: 100%;
+    height: 20px;
+    background: pink;
+}
+#bigFeaturedAfter{
+    background-image: linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,.8),#222);
+    position: absolute;
+    z-index: 6;
+    width: 29.2% !important;
+    height: 118px !important;
+    margin-top: -135px !important;
+    margin-left: 33px !important;
+    padding: 1%;
+}
+#bigFeaturedAfter img{
+    width: 86px;
+    background: #fff;
+    margin: 2%;
+}
+#bigFeaturedAfter span{
+    color: #fff;
+    font-weight: bold;
+}
+#bigFeatured #backimg{
+    width: 98%;
+    margin-left: 9%;
+}
+#bigFeatured{
+    height: 235px;
+    overflow: hidden;
+}
+
+#dealsPage #bigFeaturedAfter h5, #couponsPage #bigFeaturedAfter h5{
+    color: #fff;
+}
+
+#dealsPage #bigFeaturedAfter p, #couponsPage #bigFeaturedAfter p{
+    font-size: .7rem;
+    text-align: justify;
+    line-height: 1.2em;
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: .5rem;
+}
+#dealsPage #bigFeaturedAfter #price, #couponsPage #bigFeaturedAfter #price{
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+}
+#dealsPage #bigFeaturedAfter #price span, #couponsPage #bigFeaturedAfter #price span{
+    padding-right: 6px;
+    text-decoration: line-through;
+}
+#dealsPage .jtjqvW, #couponsPage .jtjqvW{
+    overflow: hidden !important;
+}
+#dealsPage #forSpace, #couponsPage #forSpace{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}

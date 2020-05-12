@@ -1,0 +1,42 @@
+#categoryBox1 h6{
+    font-family: Montserrat;
+    font-weight: normal;
+}
+#categoryBox1 .store:hover{
+    cursor: pointer;
+    background: #634099;
+}
+#categoryBox1 .store h6{
+    color: #634099;
+}
+#categoryBox1 .store:hover h6{
+    color: #fff;
+    font-weight: 600;
+}
+#categoryBox1 .store{
+    background: #f4f4f4;
+}
+#categoryBox1 .store .shopImgDiv{
+    position: relative;
+    width: 100%;
+    height: 130px;
+}
+#categoryBox1 .store .shopImgDiv img{
+    max-width: 60%;
+    max-height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+@media (max-width: 767px){
+    #categoryBox1 .store .shopImgDiv img {
+        max-width: 65%;
+        max-height: 70%;
+    }
+}
+@media (max-width: 767px){
+    #categoryBox1 .store .shopImgDiv {
+    width: 100%;
+}
+}

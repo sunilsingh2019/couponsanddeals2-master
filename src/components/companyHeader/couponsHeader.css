@@ -1,0 +1,169 @@
+
+/* -----------header with countdown--------- */
+#countHeader{
+    background: #f5f5f5;
+    min-height: 66px;
+}
+#featuredTitle{
+    color: #000;
+    font-weight: 600;
+    font-family: Montserrat;
+    font-size: 1rem;
+    border-bottom: 2px solid #634099;
+    height: 66px;
+    width: fit-content;
+    float: left;
+    line-height: 66px;
+    padding: 0 25px;
+   }
+#simpleTabHeader #featuredTitle, #storeOverviewTab #featuredTitle{
+    /* border: 0; */
+    margin-right: 36px;
+}
+/* #simpleTabHeader .nav-tabs li{
+    opacity: .8;
+    border-bottom: 0;
+}
+#simpleTabHeader .nav-tabs .active{
+    opacity: 1;
+    border-bottom: 2px solid #634099 !important;
+} */
+#countHeader #countDown{
+    width: fit-content;
+    float: right;
+    display: inline-flex;
+    color: #2f1754;
+    font-family: Montserrat;
+    font-size: .9rem;
+    line-height: 66px;
+}
+#countHeader #countDown div{
+    margin-left: 10px;
+    color: #b0b2bb;
+    font-weight: 600;
+    width: 115px;
+}
+#countHeader .redBox{
+    background: #ff0000;
+    color: #fff;
+    padding: 6px;
+    margin: 0 4px;
+    height: 30px !important;
+    widows: 30px !important;
+}
+#simpleHeader, #simpleTabHeader, #storeOverviewTab{
+    width: 100%;
+    height: 66px;
+    background: #f5f5f5;
+    margin-bottom: 39px;
+}
+
+/* --------------store header----------------- */
+#storeHeader, #userHeader{
+    background: #f5f5f5;
+    min-height: 90px;
+    color: #908b9d;
+    font-family: Montserrat;
+}
+#storeHeader #left h1, #userHeader #left h1{
+    color: #515151;
+    font-weight: bolder;
+    font-size: 22px;
+}
+#userHeader #left h1{
+    text-transform: capitalize;
+}
+#storeHeader #left p{
+    font-size: .9rem;
+}
+#storeHeader #left, #userProfile #left, #viewStore #left{
+    margin-top: 42px;
+    float: left;
+    margin-left: 15px;
+}
+#storeHeader #right{
+    font-size: .9rem;
+    line-height: 1.8rem;
+    margin-top: 55px;
+    text-align: right;
+}
+#storeHeader #right svg{
+    margin-left: 4px;
+}
+
+/* -----------------for tab header-- */
+#storeDetail .nav-tabs, #categoryDetail, .nav-tabs, #userTab .nav-tabs{
+    border: 0;
+    padding-bottom: 12px;
+}
+#storeDetail #storeTabs, #categoryDetail #categoryTab, #userTab{
+    background: #634099;
+    min-height: 66px;
+    font-family: Montserrat;
+    font-weight: 600;
+} 
+#storeDetail .nav-tabs li, #categoryDetail .nav-tabs li, #userTab .nav-tabs li{
+    background: #2f1754;
+    width: 124px;
+    text-align: center;
+    font-family: Montserrat;
+    border-radius: 10px;
+    margin-right: 4%;
+    margin-top: 12px;
+}
+#categoryDetail .nav-tabs li {
+    padding: 1% 0;
+}
+
+#storeDetail .nav-tabs li a, #categoryDetail .nav-tabs li a, #userTab .nav-tabs li a{
+    color: #b0b2bb;
+    font-weight: 600;
+    opacity: .5;
+    width: 124px;
+}
+#storeDetail .nav-tabs li .active, #categoryDetail .nav-tabs li .active, #userTab .nav-tabs li .active{
+    opacity: 1 !important;
+    color:#fff !important;
+}
+#storeDetail .nav-tabs li .dropdown-menu .active, #categoryDetail .nav-tabs li .dropdown-menu .active, #userTab .nav-tabs li .dropdown-menu .active{
+    opacity: 1 !important;
+    color:red !important;
+}
+
+/* login header */
+#loginHeader{
+    height: 70px;
+    background: #2f1754;
+    border: 1px solid #707070;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-family: Montserrat;
+}
+#loginHeader h1{
+    line-height: 70px;
+    line-height: 70px;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.onlyFirst{
+    margin-left: 20px;
+}
+#userProfile #noDropdown {
+    height: fit-content;
+    padding: 1%;
+}
+#userProfile .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    background-color: transparent !important;
+    border: 0 !important;
+}
+
+@media (max-width:450px){
+    #storeDetail .nav-tabs li, #categoryDetail .nav-tabs li, #userTab .nav-tabs li {
+        background: #2f1754;
+        width: fit-content;
+        padding: 0 5%;
+        margin-top: 0;
+    }
+}

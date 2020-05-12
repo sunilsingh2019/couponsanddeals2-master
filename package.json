@@ -1,0 +1,50 @@
+{
+	"name": "smartcode",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^1.2.15",
+		"@fortawesome/free-brands-svg-icons": "^5.8.1",
+		"@fortawesome/free-regular-svg-icons": "^5.7.2",
+		"@fortawesome/free-solid-svg-icons": "^5.7.2",
+		"@fortawesome/react-fontawesome": "^0.1.4",
+		"axios": "^0.18.0",
+		"bootstrap": "^4.3.1",
+		"font-awesome": "^4.7.0",
+		"fs": "0.0.1-security",
+		"jspdf": "^1.5.3",
+		"lodash": "^4.17.11",
+		"query-string": "^6.5.0",
+		"react": "^16.8.3",
+		"react-countdown-now": "^2.1.0",
+		"react-dom": "^16.8.3",
+		"react-facebook-login": "^4.1.1",
+		"react-google-login": "^5.0.2",
+		"react-helmet": "^5.2.1",
+		"react-items-carousel": "^2.3.0",
+		"react-meta-tags": "^0.7.4",
+		"react-redux": "^6.0.1",
+		"react-router-dom": "^4.3.1",
+		"react-router-scroll-top": "^0.1.1",
+		"react-scripts": "2.1.5",
+		"react-share": "^3.0.0",
+		"redux": "^4.0.1",
+		"redux-lazy-scroll": "^0.1.1",
+		"redux-thunk": "^2.3.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	]
+}
